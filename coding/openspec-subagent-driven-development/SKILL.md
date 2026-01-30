@@ -51,8 +51,8 @@ digraph process {
         "Subagent executes /clear" [shape=box];
         "Subagent exports context usage" [shape=box];
         "Subagent executes /openspec:apply [spec-id]" [shape=box];
-        "Subagent implements all spec changes" [shape=box];
-        "Subagent archives the spec" [shape=box];
+        "Subagent implements all spec changes using /openspec:apply [spec-id]" [shape=box];
+        "Subagent archives the spec using /openspec:archive [spec-id]" [shape=box];
         "Verify spec archived successfully" [shape=box];
         "Report status to user" [shape=box];
     }
