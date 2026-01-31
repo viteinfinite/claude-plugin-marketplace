@@ -55,6 +55,9 @@ Task tool (general-purpose):
     **Testing:**
     - [ ] Do tests actually verify behavior (not just mock behavior)?
 
+    **Archiving:**
+    - [ ] Did I archive the spec after implementation using `/openspec:archive <spec-id>`?
+
     If you find issues during self-review, fix them now before reporting.
 
     ## Report Format
